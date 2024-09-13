@@ -1,0 +1,14 @@
+name: Tutorial_SP
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python ==3.10.8
+- ipykernel
+- numpy
+- matplotlib
+- jupyter-server-proxy
+- pandas
+- pip:
+        - ai.cdas
+     
